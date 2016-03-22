@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ICSharpCode.Decompiler</id>
+    <version>2.3.0</version>
+    <title>ILSpy Decompiler Engine</title>
+    <authors>Daniel Grunwald,  David Srbecky,  Ed Harvey,  Siegfried Pammer</authors>
+    <owners>Daniel Grunwald,  David Srbecky,  Ed Harvey,  Siegfried Pammer</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/icsharpcode/ILSpy/</projectUrl>
+    <iconUrl>http://ilspy.net/images/icon32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ICSharpCode.Decompiler is the decompiler engine used in ILSpy.</description>
+    <copyright>Copyright 2011-2015 AlphaSierraPapa</copyright>
+    <tags>C# Decompiler ILSpy</tags>
+    <dependencies>
+      <dependency id="Mono.Cecil" version="0.9.5.4" />
+      <dependency id="ICSharpCode.NRefactory" version="5.5.1" />
+    </dependencies>
+  </metadata>
+</package>
